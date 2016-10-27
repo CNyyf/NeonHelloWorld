@@ -1,13 +1,14 @@
 package helloworld;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class HelloWorld {
 
 	public static void main(String[] args) {
 		System.out.println(add(1, 2, 3, 4, 5));
 	/////////////////////////////////////////////
-/*		Integer a = new Integer(10), b = new Integer(10);
+		Integer a = new Integer(10), b = new Integer(10);
 		String sa = new String("haha"), sb = new String("haha");
 		System.out.println(a == b);
 		b = Integer.parseInt("fff", 36);
@@ -34,14 +35,14 @@ public class HelloWorld {
 		
 		int[] listInt = new int[11];
 		for(int i = 0; i != 1000000; i++) {
-			int temp = (int)(Math.random() * 10);
-			listInt[temp]++;
+			int temp1 = (int)(Math.random() * 10);
+			listInt[temp1]++;
 		}
 		for(int i = 0; i != 11; i++) {
 			//System.out.print(i + ": " + listInt[i] + ",");
 			//listInt[i] += listInt[i - 1];
 			System.out.println(i + ": " + listInt[i]);
-		}*/
+		}
 	/////////////////////////////////////////////
 /*		OUT:		
 		for(int i = 0; i != 5; i++) {
