@@ -9,7 +9,6 @@ public class HelloWorld {
 		System.out.println(add(1, 2, 3, 4, 5));
 	/////////////////////////////////////////////
 		Integer a = new Integer(10), b = new Integer(10);
-		String sa = new String("haha"), sb = new String("haha");
 		System.out.println(a == b);
 		b = Integer.parseInt("fff", 36);
 		System.out.println(b);
