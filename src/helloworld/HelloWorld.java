@@ -7,7 +7,7 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		System.out.println(add(1, 2, 3, 4, 5));
-	/////////////////////////////////////////////
+	///////////////////
 		Integer a = new Integer(10), b = new Integer(10);
 		System.out.println(a == b);
 		b = Integer.parseInt("fff", 36);
